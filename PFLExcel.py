@@ -30,7 +30,7 @@ with open(output_text_file, "r", encoding="utf-8") as file:
 url = "http://localhost:11434/api/chat"
 headers = {"Content-Type": "application/json"}
 data = {
-    "model": "gemma2:2b",
+    "model": "phi3:latest",
     "messages": [
         {"role": "user", "content": f" Extract the following fields from the given text and return them in JSON format:\n\n"
         +"Exporter, Buyers bank, consignee, Port of loading, Invoice No. & Date, EXP NO., S/C NO."

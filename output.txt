@@ -1,127 +1,137 @@
-COMMERCIAL INVOICE
-Exporter :
-Invoice No & Date :
-TNZ-06-JMG-49-2023
-For Account & Risk of :
-BUYER'S  BANK
-Consignee :
-NOTIFY
-Country of Orgin of Goods
-Pre-Carriage by
-Place of Receipt by Pre-Carrier
-Terms of Deliery and Payment
-Vessel/Flight No.
-Port of Loading
-Port of Discharge
-Final Destination
-Marks & Nos./                      No. & Kind of Pkgs.                Description of Goods                            Container No.
-Quantity
-Rate
-2888 CTNS
-PO NO.
-STYLE NO.
-COLOR
-PACKAGES:
-2888
-CTNS
-GROSS WT : 
-59,954.88
-KGS
-NET WT      : 
-55,882.80
-KGS
-(SAY US DOLLAR :  ONLY)
-BANK DETAILS FOR T.T. PAYMENT
-Country of Fin
-VOLUME :
-192.00
-CBM
-NAME AND ADDRESS OF MANU
-Exporter's Ref 
-TNZ APPARELS LTD. 
-DATE :
-SHI-228/4, BIJOY ROAD, MOGORKHAL, 
-EXP NO.:1013-004689-2023
-DATE :
-GAZIPUR SADAR, GAZIPUR-1704  
-BANK REF-
-DATE :
-BANGLADESH.
-S/C NO.  JMG/SG/210311/2022
-DATE :
-B/L NO.  
-DATE :  
-JMG H.K. LIMITED
-MASHREQ BANK PSC
-ROOMS A-B 25/F, KING PLACE PLAZA
-AL RIQQA STREET, AL GHURAIR CITY
-55 KING YIP STREET KWUNG TONG
-DUBAI, UAE
-KOWLOON, HONG KONG.
-SWIFT CODE: BOMLAEADXXX
-SYNDICATED AG 
-7800 AIRPORT BUSINESS  PKWY STUDIO B
-VAN NUYS, CA 91406
-USA
-BANGLADESH
-U. S. A.
-FOB  BY SEA  TO LOS  ANGELES, USA
-BY SEA
-CHITTAGONG
-S/C NO.  JMG/SG/210311/2022
-Sales Terms :  CONTRACT
-LOS ANGELES
-USA
-PAYMENT :  BY  T/T
-PCS
-FOB
-IN USD
-SLIM BOOT DENIM (MENS LONG PANT)
-1246
-AXMB0074
-1246
-AXMB0075
-OBSCURE- Dark Wash
-Fabrication:  62.5%Cotton  30.5%Polyester 5.5%Viscose 1.5%Spandex.
-HS CODE           :
-62034200
-TNZ APPARELS LTD. 
-UNITED COMMERCIAL BANK LIMITED.
-MOHAKHALI BRANCH, 28 MOHAKHALI C/A,
-BANGLADESH.
-DHAKA-1212, BANGLADESH.
-SWIFT NO  : UCBLBDDHMKH
-" NO WOOD PACKAGING MATERIALS WERE USED IN THIS SHIPMENT "
-Declaration : We declare that this invoice shows the actual price of the goods
-described and that all particulars are and correct.
-189 SUNRISE HIGHWAY, SUITE 202,
-ROCKVILLE CENTRE NY 11570 USA.
-PHONE : 516-766-3000, FAX : 516-766-3001
-SHI-228/4, BIJOY ROAD, MOGORK
-GAZIPUR SADAR, GAZIPUR-1704 
-WALSH C.H.B INC. DBA WALSH INTERNATIONAL
-TNZ APPARELS LTD. 
-Carton #:   of#
-MEAS:
-MADE IN BANGLADESH
-PO# 
-STYLE
-COLOR
-COLOR CODE
-SIZE
-QTY
-G.W.
-N.W
-MEDITERRANEAN-MED WASH
-36,384
-$7.89
-32,928
-$7.55
-69,312
-Amount Chargeable                       (In words)
-Total
-A/C NO  : 078-1101000000796
-SAPL West
->> Empty Cartons
->> Sample
+Md. Al Arman, PMP®
+armaniutian@gmail.com
+ 
+8801730088195
+ 
+Uttara, Dhaka, Bangladesh
+ 
+linkedin.com/in/md-al-arman/
+ 
+PROFESSIONAL SUMMARY
+Dynamic QA manager with 14 years of experience in the tech industry. Proven expertise in QA functions and strategies, agile
+methodologies, project administration and stakeholder collaboration. Successfully managed some award-winning global
+enterprise products, leading cross-functional teams to deliver 50+ high-impact releases with zero critical usability issues,
+achieving a 95% customer satisfaction rate. As an entrepreneur, launched a SAAS platform, scaling 15+ products, serving 10K+
+B2B merchants, reducing 50% operational expenses. Committed to continuous learning, driving innovation and creating value.
+WORK EXPERIENCE
+Software QA Manager, Nilavo Technologies Limited
+•Planned and executed QA strategies aligned with business goals, reducing production defects
+by 70% and increasing software quality by 50%
+Oct 2019 – Apr 2024
+Dhaka, Bangladesh
+•Oversaw 50+ successful releases, coordinating cross functional teams to deliver on time,
+achieving a customer satisfaction rate of 95%
+•Directed the agile transformation and scrum practices within the organization, resulting in a
+30% improvement in project delivery times
+•Efficiently managed task priorities, resources and budgets, improving communication
+channels, optimizing team performance and fostering inter-department engagement,
+resulting in enhancing productivity by 25%
+•Supervised security aspects across products and environments, collaborating with
+development team to resolve and maintain OWASP, GDPR standards
+•Conducted R&D on different tools and technologies e.g. Playwright, Percy, Notion
+Cofounder and CEO (Part-time), Storrea Limited
+•Co-founded and led the first SAAS-based B2B ecommerce platform (Storrea.com
+) in
+Bangladesh for SME businesses
+Jan 2016 – Jan 2023
+Dhaka, Bangladesh
+•Introduced a unified commerce module, streamlining inventory, customer, and order
+synchronization for online, offline, and POS transactions, reducing operational expenses by
+up to 50% for merchants
+•Ideated, designed, and launched 15+ products, achieving 10K+ signups and 500+ paid
+customers, maintaining an ARR of $50K while bootstrapping
+•Successfully completed projects with 20+ partners in the business ecosystem, integrating
+services with banks, MFS, payment gateway aggregators, telecom operators, logistics
+providers, marketplaces, wholesalers, agencies, referrers, and trade bodies
+•Handled content planning, execution, and distribution over Storrea platform, website and
+marketing campaigns, including 100+ ecommerce blog articles
+Software QA Lead, Nilavo Technologies Limited
+•Led and mentored QA team of 6 members that completed multiple projects maintaining global
+automation standards and QA processes
+Mar 2016 – Sep 2019
+Dhaka, Bangladesh
+•Expanded test automation coverage up to 75%, significantly reducing regression testing time
+using Cypress, Protractor, JavaScript
+•Executed comprehensive API tests using RESTAssured, Postman, ensuring seamless
+integration and functionality across all service endpoints
+•Acted as the primary QA point of contact for clients and supports, improving client
+satisfaction through transparent communication and effective issue resolution
+Senior Software QA Engineer, Nilavo Technologies Limited
+•Spearheaded the coverage and development of regression testing suite ensuring backward
+compatibility and stability across all versions using Selenium WebDriver, Java
+Jul 2014 – Feb 2016
+Dhaka, Bangladesh
+•Ran extensive load and performance tests, identifying bottlenecks and optimizing software
+performance by 25% using JMeter, WAPTPro
+•Implemented rigorous testing standard, process optimization and test environment
+upgradation that improved issue resolution and delivery efficiency by 30%
+Software QA Engineer, Nilavo Technologies Limited
+•Increased test coverage by 30% through creating comprehensive test plans and test cases
+Aug 2010 – Jun 2014
+Dhaka, Bangladesh
+•Identified, reported and troubleshooted 200+ bugs during development phases and post
+release
+•Developed automated test scripts using Selenium WebDriver, Selenium IDE, Selenium RC,
+reducing manual test execution time by 60% and improved test accuracy
+
+EDUCATION
+Executive MBA, Institute of Business Administration (IBA, DU)
+CGPA: 3.36 out of 4.00
+2019 – 2020
+B.Sc. in CSE, Islamic University of Technology (IUT)
+CGPA: 3.55 out of 4.00 
+2005 – 2009
+CERTIFICATES
+Project Management Professional 
+(PMP)
+Certified Scrum Master (CSM)
+Certified Scrum Product Owner 
+(CSPO)
+SKILLS
+Technical — SDLC, STLC   Test Methodologies   Test Automation   Software Quality Assurance   Load/ Performance
+Testing   API Testing   Bug Triage and Resolution
+Project Management — Agile Project Management (Scrum, Kanban)   Requirement Analysis   Stakeholder collaboration 
+ Conflict Management   Risk Analysis and Change Management   Project Documentation
+Product Management — Product Vision and Strategy   Product Lifecycle Management   Product Road Mapping   Product
+Backlog Management   Designing MVP   Go-to-Market (GTM) Strategy
+User Experience — User Acceptance Testing (UAT)   User Experience (UX) Design   User Training   User Surveys   Lead
+Management   Customer Rapport
+Team Management and Leadership — Data-Driven Decision Making   Team Leadership   Cross-Functional Team
+Management   Staff Recruitment and Mentoring
+TOOLS AND TECHNOLOGIES
+Management
+Trello, Jira, Confluence, Azure DevOps, Slack, Figma, Zoho 
+CRM, Zendesk, Pipedrive, G Suite, Microsoft Product Suite
+Tech
+Agile, Scrum, Kanban, Waterfall, Java, Javascript, SQL, 
+Selenium, Cypress, Playwright, Appium, Postman, 
+RestAssured, JMeter, Github, Bitbucket, Burp Suite
+INTERESTS
+Playing Dota 2
+Fantasy Football/Cricket
+Technical Analysis
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
