@@ -1,38 +1,60 @@
 import time
 import json
+
 import requests
 from pymupdf import pymupdf
-from fastapi import FastAPI
+from fastapi import FastAPI, UploadFile, File, HTTPException, Depends
+from datetime import datetime, timedelta
 import fitz
+import jwt
+from fastapi.security import OAuth2PasswordBearer
 app = FastAPI()
 
 # Start time measurement
 start_time = time.time()
+SECRET_KEY="qwerty123456"
+ALGORITHM = "HS256"
+ACCESS_TOKEN = jwt.encode({"exp": datetime.now() + timedelta(days=365)}, SECRET_KEY, algorithm=ALGORITHM)  # Token valid for 1 year
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+
+# Function to verify token
+def verify_token(token: str = Depends(oauth2_scheme)):
+    if token != ACCESS_TOKEN:
+        raise HTTPException(status_code=401, detail="Invalid or expired token")
+    return token
 
 
+# Route to get the static token (Share this manually)
+@app.get("/get-token")
+def get_static_token():
+    return {"token": ACCESS_TOKEN}
 
-@app.get("/")
-def read_root():
-    # Step 1: Extract text from PDF
-    pdf_file_path = "./cv/1d6e6b42-9182-4d42-ac9b-864cb813b98c.pdf"
-    output_text_file = "output.txt"
 
-    reader = fitz.open(pdf_file_path)
+@app.post("/upload/")
+async def upload_pdf(file: UploadFile = File(...), token: str = Depends(verify_token)):
+    # Start time measurement
+    start_time = time.time()
+
+    # Step 1: Read the uploaded PDF file
     pdf_text = ""
+    pdf_file = await file.read()  # Read the file content
+    reader = fitz.open(stream=pdf_file, filetype="pdf")  # Open PDF from bytes
+
     for page in reader:
         text = page.get_text()
         if text:
             pdf_text += text + "\n"
 
-    # Write extracted text to a file
-    with open(output_text_file, "w", encoding="utf-8") as file:
-        file.write(pdf_text)
-
-    print(f"Extracted text has been saved to {output_text_file}")
-
-    # Step 2: Read extracted text
-    with open(output_text_file, "r", encoding="utf-8") as file:
-        extracted_text = file.read()
+    # # Write extracted text to a file
+    # with open(output_text_file, "w", encoding="utf-8") as file:
+    #     file.write(pdf_text)
+    #
+    # print(f"Extracted text has been saved to {output_text_file}")
+    #
+    # # Step 2: Read extracted text
+    # with open(output_text_file, "r", encoding="utf-8") as file:
+    #     extracted_text = file.read()
     # Step 3: Define API details
     url = "http://localhost:11434/api/chat"
     headers = {"Content-Type": "application/json"}
@@ -43,7 +65,7 @@ def read_root():
              "content": f" Extract the following fields from the given text and return them in JSON format without special characters:\n\n"
                         + "name, phone, email,graduation degree,graduation institute, graduation subject, graduation year, previous workplace, total experience"
                         +
-                        f"CV Content:{extracted_text}", "context": "data collect from resume"}
+                        f"CV Content:{pdf_text}", "context": "data collect from resume"}
         ]
 
         # "messages": [
@@ -78,7 +100,7 @@ def read_root():
         data = json.loads(clean_response)
         print(clean_response)
         print(data)
-        return {"Response":data }
+        return {"Response":data}
     else:
         print("Error:", response.status_code, response.text)
         return {"Response": response}
